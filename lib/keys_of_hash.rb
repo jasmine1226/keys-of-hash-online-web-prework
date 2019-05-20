@@ -5,7 +5,7 @@ class Hash
     arguments.each do |argument|
     #  puts "#{self.select{|k,v| v == argument}}.values: #{argument}"
       puts self.select{|k,v| v == argument}
-      
+
     end
   keys
   end
