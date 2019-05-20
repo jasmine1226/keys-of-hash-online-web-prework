@@ -3,7 +3,7 @@ class Hash
     # code goes here
     keys = []
     arguments.each do |argument|
-      puts "#{self.index(argument)}: #{argument}"
+      puts "#{self.select{|k,v| v == argument}}: #{argument}"
       keys << self.select{|k,v| v == argument}
     end
   keys
