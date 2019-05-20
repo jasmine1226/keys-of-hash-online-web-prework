@@ -4,7 +4,7 @@ class Hash
     keys = []
     arguments.each do |argument|
       keys << self.index(argument)
-      puts keys
+      puts self.index(argument)
     end
   keys
   end
