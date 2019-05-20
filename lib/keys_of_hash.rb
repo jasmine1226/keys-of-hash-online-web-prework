@@ -5,6 +5,7 @@ class Hash
     arguments.each do |argument|
       keys << Hash.index(argument)
     end
+      keys
   end
-  keys
+
 end
