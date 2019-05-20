@@ -4,7 +4,7 @@ class Hash
     keys = []
     arguments.each do |argument|
       puts "#{self.index(argument)}: #{argument}"
-      keys << self.index(argument)
+      keys << self.select{|k,v| v == argument}
     end
   keys
   end
