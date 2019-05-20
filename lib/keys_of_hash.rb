@@ -3,7 +3,7 @@ class Hash
     # code goes here
     keys = []
     arguments.each do |argument|
-      keys << hash.index(argument)
+      keys << self.index(argument)
     end
   keys
   end
