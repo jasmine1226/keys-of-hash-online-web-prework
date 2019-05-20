@@ -5,7 +5,6 @@ class Hash
     arguments.each do |argument|
       puts "#{self.index(argument)}: #{argument}"
       keys << self.index(argument)
-      puts self.index(argument)
     end
   keys
   end
